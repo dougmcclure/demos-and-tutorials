@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+a {
+	font-size:1.0em;
+	font-weight:normal;
+	padding-left:14px;
+}
+
+</style>
+
+<body>
+	<div style="border: 1px ridge grey; padding: 5px; font-size: 16px;">
+		<h2>10 Steps for Event Analysis and Reduction</h2>
+<br/>
+<strong>Step 1-</strong> Are all event types in Netcool/OMNIbus actionable by someone? Does someone watch for these events, get notified when they are received, triage or troubleshoot the associated technology, create a trouble ticket, etc? If not, why? How you answer these questions can serve as the basis for deeper investigation below.<br/>
+<br/>
+<strong>Step 2-</strong> Where event types are not actionable, why are they being sent to Netcool/OMNIbus? Are they needed? Do they support some other triage or troubleshooting activity? Are they symptoms of another problem or event type? Are there too many of them? Are they false positives? Do they always occur and are simply ignored? What types of answers would you get when asking the end users these questions?<br/>
+<br/>
+<strong>Step 3-</strong> Are the primary end users who are responsible for monitoring for and acting upon events only focused on the red, critical events? If so, what do they do with events of other severities? Are these events sent to other end user groups (e.g. application support teams for early action before a critical problem threshold is tripped)?<br/>
+<br/>
+<strong>Step 4-</strong> Are there events that only occur at a certain time of the day, day of the week, week of the month, etc? Are events generated during maintenance windows, scheduled changes or similar planned outages? Are techniques in place to handle these situations properly?<br/>
+<br/>
+<strong>Step 5-</strong> Where do the majority of events in your originate? What are the top sources for events in your environment (e.g. another EMS/NMS system, probe/gateway integration, end point system/application/technology, etc.)? Are those event volumes normal? Do you know what normal is?<br/>
+<br/>
+<strong>Step 6-</strong> What are the top event types from those top event sources? What are the predominant event attributes (e.g. a certain node, alert type, alert key, etc.) that can be investigated? Are those event volumes normal? Do you know what normal is?<br/>
+<br/>
+<strong>Step 7-</strong> What monitoring activities, thresholds, conditions, situations, etc. are in place within the source systems that is causing significant event generation to occur? Are those monitoring activities, thresholds, conditions, situations configured properly? Are they generating actionable events? Are the events always acted upon or are they ignored? Do they self-clear when the problem goes away?<br/>
+<br/>
+<strong>Step 8-</strong> Are you making the best use of event suppression, correlation, deduplication, auto clearing, throttling or similar techniques within your Netcool/OMNIbus environment? Are you aware of what capabilities, features, add-ons or best practices exist to help in these areas? Launch the "Event Analysis Information Links" app for more information on some of these topics.<br/>
+<br/>
+<strong>Step 9-</strong> Formulate an action plan to optimize source systems, integrations and end point systems/applications/technology for proper monitoring, thresholds, conditions, situations and event generation. Remember, in many cases these things could have been implemented months or years ago and the nature of your business and technology environments may have changed.<br/>
+<br/>
+<strong>Step 10-</strong> IBM's C&SI offers Netcool/OMNIbus Health Check services that might be a good starting place for optimizing your event management environment.<br/>
+	</div>
+</body>
+</html>
